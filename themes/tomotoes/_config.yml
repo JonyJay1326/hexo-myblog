@@ -187,3 +187,15 @@ githubEmojis:
   unicode: false
   styles:
   localEmojis:
+
+# 配置rsync
+deploy:
+  type: rsync
+  host: 139.196.85.168
+  user: root
+  root: /usr/share/nginx/html
+  port: 22
+  delete: true # Default is true
+  args: <rsync args>
+  verbose: true # Default is true
+  ignore_errors: false # Default is false
