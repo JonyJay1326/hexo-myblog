@@ -187,3 +187,11 @@ githubEmojis:
   unicode: false
   styles:
   localEmojis:
+
+deploy:
+  type: rsync
+  host: 139.196.85.168
+  user: root
+  root: /usr/share/nginx/html
+  port: 22
+  delete: true
