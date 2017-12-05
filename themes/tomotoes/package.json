@@ -1,0 +1,19 @@
+{
+  "name": "hexo-theme-tomatoes",
+  "version": "2.0",
+  "description": "Light Design theme for Hexo.",
+  "keywords": [
+    "hexo",
+    "theme",
+    "Light"
+  ],
+  "author": {
+    "name": "Simon Ma",
+    "email": "1755811882@qq.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/tomotoes/hexo-theme-tomatoes.git",
+    "type": "git"
+  }
+}
