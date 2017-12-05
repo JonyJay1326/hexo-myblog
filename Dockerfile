@@ -5,6 +5,6 @@ WORKDIR /app
 COPY . /app/
 EXPOSE 80
 
-RUN cp -r public/* /var/www/html
+RUN cp -r public/* /var/www/html \
     && rm -rf /app
 CMD ["nginx","-g","daemon off;"]
