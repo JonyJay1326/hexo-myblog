@@ -5,5 +5,4 @@ EXPOSE 8888
 
 RUN cp -r public/* /usr/share/nginx/html \
     && rm -rf /app \
-    && rm -rf /usr/share/nginx/html
 CMD ["nginx","-g","daemon off;"]
