@@ -1,9 +1,7 @@
-FROM ubuntu
-RUN apt-get update \
-    &&  apt-get install -y nginx
+FROM daocloud.io/library/nginx
 WORKDIR /app
 COPY . /app/
-EXPOSE 80
+# EXPOSE 8888
 
 RUN cp -r public/* /var/www/html \
     && rm -rf /app
