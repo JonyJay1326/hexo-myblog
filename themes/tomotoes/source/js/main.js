@@ -398,6 +398,13 @@
             });
         }
     };
+    w.addEventListener('visibilitychange',function(){
+        if(document.visibilityState=='hidden') {
+            normal_title=document.title;
+            document.title='(づ￣ 3￣)づ';
+        }else
+            document.title=normal_title;
+    });
     /* 页面加载第二个执行的事件 */
     w.addEventListener("load", function () {
         loading.classList.remove("active");
