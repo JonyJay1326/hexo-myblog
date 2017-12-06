@@ -603,14 +603,14 @@ function getHitokoto() {
         dataType: "json",
         timeout: 2500,
         success: function (data) {
-            if (data.hitokoto.length > 12) {
+            if (data.hitokoto.length > 15) {
                 countFail++;
                 if (countFail > 5) {
                     elasticText({
                         id: "yiyanmotto",
                         duration: 100,
                         effact: "easeOut",
-                        content: "为了正义！"
+                        content: "世界が终わるまでは"
                     });
                 } else {
                     getHitokoto();
