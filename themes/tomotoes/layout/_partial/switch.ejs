@@ -4,6 +4,7 @@ if(location.href.indexOf("about")!==-1&&window.innerWidth<1200){
 	/*移动设备 内容会出现内边距*/
 	document.querySelector(".post-content").classList.add("about");
 }
+//检查  是否在本页,修改title
 document.addEventListener('visibilitychange',function(){
 if(document.visibilityState=='hidden') {
     normal_title=document.title;

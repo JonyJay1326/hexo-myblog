@@ -1,5 +1,5 @@
 ﻿<%- partial('_partial/header', {
-    title: locals.title || theme.tags_title,
+    title: theme.tags_title || locals.title,
     hdClass: 'tags-header'
 }) %>
 
@@ -11,7 +11,7 @@
                     if(tag.name == page.tag.trim()){
                         tag_num = tag.length
                     }
-                }) 
+                })
             %>
             <h5 class="tag-tip">
                 <i class="icon icon-tag"></i>
@@ -39,7 +39,7 @@
                     }) %>
                 <% }
             }) %>
-            
+
             </div>
         <% } %>
 <%- partial('_partial/paginator') %>
