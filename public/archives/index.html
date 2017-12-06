@@ -6,7 +6,7 @@
     
     
     
-    <title>归档 | _φ(❐_❐✧)φ_</title>
+    <title>归档 | _❐_❐✧_</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     
     <meta name="theme-color" content="#77AAFF">
@@ -40,13 +40,13 @@
 
     
     <meta property="og:type" content="website">
-<meta property="og:title" content="_φ(❐_❐✧)φ_">
+<meta property="og:title" content="_❐_❐✧_">
 <meta property="og:url" content="http://yoursite.com/archives/index.html">
-<meta property="og:site_name" content="_φ(❐_❐✧)φ_">
+<meta property="og:site_name" content="_❐_❐✧_">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="_φ(❐_❐✧)φ_">
+<meta name="twitter:title" content="_❐_❐✧_">
     
-        <link rel="alternate" type="application/atom+xml" title="_φ(❐_❐✧)φ_" href="/atom.xml">
+        <link rel="alternate" type="application/atom+xml" title="_❐_❐✧_" href="/atom.xml">
     
     <link rel="shortcut icon" href="/img/favicon.ico">
     <link id="style" rel="stylesheet" href="/css/style.css?v=2.0">
@@ -305,7 +305,14 @@ if(location.href.indexOf("about")!==-1&&window.innerWidth<1200){
 	/*移动设备 内容会出现内边距*/
 	document.querySelector(".post-content").classList.add("about");
 }
-
+document.addEventListener('visibilitychange',function(){
+if(document.visibilityState=='hidden') {
+    normal_title=document.title;
+    document.title='(╰_╯)#';
+}
+else
+    document.title=normal_title;
+});
 if(window.innerWidth > 800){
 	/* 3D标题 */
 	$(".content-header").on("mousemove", threedee);
@@ -379,7 +386,7 @@ G($(".post-content"), location.href, "Jony Jay");
 /* 控制台 */
 if (window.console && window.console.log) {
 	setTimeout(function () {
-		console.log("\n %c 一个坏掉的番茄 %c  © Simon Ma  http://tomotoes.com \n\n", "color:#FFFFFB;background:#1abc9c;padding:5px 0;border-radius:.5rem 0 0 .5rem;", "color:#FFFFFB;background:#080808;padding:5px 0;border-radius:0 .5rem .5rem 0;");
+		console.log("\n %c 一只特立独行的猪 %c  © Simon Ma  http://tomotoes.com \n\n", "color:#FFFFFB;background:#16aaac;padding:5px 0;border-radius:.5rem 0 0 .5rem;", "color:#FFFFFB;background:#434343;padding:5px 0;border-radius:0 .5rem .5rem 0;");
 	}, 0);
 }
 
