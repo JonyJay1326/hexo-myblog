@@ -55,10 +55,10 @@ mymotto: false
 startime: 2017/12/05
 
 # 首页副标题
-homesubtitle: 在Web全栈的道路上努力前行
+homesubtitle: 前端小白前来报道
 
 # 归档页标题
-archivestitle: 路漫漫其修远兮
+archivestitle: Just Do IT
 
 # 标签页标题
 tagstitle: 不积小流无以成江海
@@ -67,7 +67,7 @@ tagstitle: 不积小流无以成江海
 categoriestitle: 不积跬步无以至千里
 
 # 关于页标题
-aboutitle: 一个坏掉的番茄
+aboutitle: This Is Why We Play
 
 # 设置 Android L Chrome 浏览器状态栏颜色
 color: '#77AAFF'
@@ -92,7 +92,7 @@ share: true
 
 # 是否开启打赏，关闭 reward: false
 reward:
-  title: 感谢您的鼓励支持！     #打赏回馈话语
+  title: 逗你玩 ！ = = ！     #打赏回馈话语
   wechat: /img/wechat.png     #微信，关闭设为 false
   alipay: /img/alipay.png     #支付宝，关闭设为 false
   wechatalipay: /img/dog.png  #点击打赏时显示的图片
@@ -163,7 +163,7 @@ canonical: false
 since_year: 2017
 
 # footer中显示的网址
-site: tomotoes.com
+site: lovefay.com
 
 # 用户页面中作者相关的描述性文字，如不需要设为 false
 about: 业精于勤荒于嬉，行成于思毁于随
@@ -187,11 +187,3 @@ githubEmojis:
   unicode: false
   styles:
   localEmojis:
-
-deploy:
-  type: rsync
-  host: 139.196.85.168
-  user: root
-  root: /usr/share/nginx/html
-  port: 22
-  delete: true
