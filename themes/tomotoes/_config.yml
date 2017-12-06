@@ -27,11 +27,11 @@ menu:
 menu2:
   envelope-o:
     text: Email
-    url: mailto:1755811882@qq.com
+    url: mailto:flyingair1326@gmail.com
     target: _parent
   github:
     text: Github
-    url: https://github.com/tomotoes
+    url: https://github.com/FlyingAir
     target: _blank
   weibo:
     text: 微博
