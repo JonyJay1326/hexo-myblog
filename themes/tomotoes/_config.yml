@@ -138,8 +138,8 @@ gitment: false
 gitalk:
  owner: FlyingAir
  repo: hexo-myblog
- client_id: f725751c3357ebbcc7e7
- client_secret: 9ad006088a426dc81dc12424baf4f1de55c1d7dd
+ client_id: 7f3664143ff2217581ac
+ client_secret: 7b079b9db800712f97100dd4df7e2384452ad982
 
 # Valine Comment system. https://valine.js.org
 valine:
