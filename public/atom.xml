@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>_❐_❐✧_</title>
+  <title>ヽ(￣▽￣)ﾉ</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://blog.lovefay1994.com/"/>
   <updated>2017-12-05T05:48:56.494Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://blog.lovefay1994.com/</id>
   
   <author>
     <name>Jony Jay</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2017/12/05/hello-world/"/>
-    <id>http://yoursite.com/2017/12/05/hello-world/</id>
+    <link href="http://blog.lovefay1994.com/2017/12/05/hello-world/"/>
+    <id>http://blog.lovefay1994.com/2017/12/05/hello-world/</id>
     <published>2017-12-05T05:36:16.880Z</published>
     <updated>2017-12-05T05:48:56.494Z</updated>
     
