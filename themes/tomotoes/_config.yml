@@ -48,7 +48,7 @@ favicon: /img/favicon.ico
 # 座右铭
 # mymotto:  关闭一言
 #  content: 用此内容代替一言
-mymotto: false
+mymotto: true
 # content: 我的座右铭
 
 # 网站开启时间
