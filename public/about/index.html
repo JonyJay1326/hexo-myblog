@@ -90,7 +90,7 @@
         <hgroup class="introduce">
           <h5 class="nickname" id="name">Jony Jay</h5>
           
-            <div id="yiyanmotto" class="motto">&nbsp;</div>
+            <div id="mymotto" class="motto"></div>
           
         </hgroup>
       </div>
@@ -236,23 +236,6 @@
 
         
     
-<section class="comments" id="comments">
-    <div id="gitment_thread"></div>
-    <link rel="stylesheet" href="//unpkg.com/gitment/style/default.css">
-    <script src="//unpkg.com/gitment/dist/gitment.browser.js"></script>
-    <script>
-        var gitment = new Gitment({
-            owner: 'FlyingAir',
-            repo: 'hexo-myblog',
-            oauth: {
-                client_id: 'f725751c3357ebbcc7e7',
-                client_secret: '9ad006088a426dc81dc12424baf4f1de55c1d7dd',
-            },
-        })
-        gitment.render('comments')
-    </script>
-</section>
-
 
     
 <section class="comments" id="comments">
@@ -458,7 +441,12 @@ postshow();
 
 /* 座右铭 */
 
-   getHitokoto();
+    elasticText({
+        id: "mymotto",
+        duration: 100,
+        effact: "easeOut",
+        content: ""
+    });
 
 
 
