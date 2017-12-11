@@ -6,17 +6,29 @@
     
     
     
-    <title>about | ヽ(￣▽￣)ﾉ</title>
+    <title>
+    ヽ(￣▽￣)ﾉ |
+    
+    about
+    
+    </title>
     <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     
     <meta name="theme-color" content="#77AAFF">
     
     
     <meta name="keywords" content="">
-    
+
     
 
     
+<!-- Tencent Speed -->
+<script>var _speedMark = new Date()</script>
+<!-- End Tencent Speed -->
+<!-- Tencent Analysis -->
+<script async src="//tajs.qq.com/stats?sId=64610425"></script>
+<!-- End Tencent Analysis -->
+
 
     <!-- Baidu Push -->
 <script>
@@ -37,8 +49,10 @@
 </script>
 
 
+	<script src="//hm.baidu.com/hm.js?0e73424a5ef7fc2bd4739fb44520b6c9"></script>
 
-    
+
+
     <meta name="description" content="layout: aboutcomments: truereward: false">
 <meta property="og:type" content="website">
 <meta property="og:title" content="about">
@@ -58,7 +72,7 @@
 
     <!-- custom head -->
     
-            
+
 </head>
 
 <body>
@@ -222,8 +236,41 @@
 
         
     
+<section class="comments" id="comments">
+    <div id="gitment_thread"></div>
+    <link rel="stylesheet" href="//unpkg.com/gitment/style/default.css">
+    <script src="//unpkg.com/gitment/dist/gitment.browser.js"></script>
+    <script>
+        var gitment = new Gitment({
+            owner: 'FlyingAir',
+            repo: 'hexo-myblog',
+            oauth: {
+                client_id: 'f725751c3357ebbcc7e7',
+                client_secret: '9ad006088a426dc81dc12424baf4f1de55c1d7dd',
+            },
+        })
+        gitment.render('comments')
+    </script>
+</section>
+
 
     
+<section class="comments" id="comments">
+    <div id="gitalk-container"></div>
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+        var gitalk = new Gitalk({
+            clientID: 'f725751c3357ebbcc7e7',
+            clientSecret: '9ad006088a426dc81dc12424baf4f1de55c1d7dd',
+            repo: 'hexo-myblog',
+            owner: 'FlyingAir',
+            admin: ['FlyingAir']
+        });
+        gitalk.render('gitalk-container');
+    </script>
+</section>
+
 
     
 

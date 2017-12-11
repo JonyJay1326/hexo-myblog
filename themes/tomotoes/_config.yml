@@ -113,10 +113,10 @@ postMessage: 原文链接：<a href="<%- url_for(page.path).replace(/index\.html
 
 
 # 百度统计，如要开启，改为你的 key
-baidu_tongji: false
+baidu_tongji: 0e73424a5ef7fc2bd4739fb44520b6c9
 
 # 腾讯分析，如要开启，输入站点id
-tajs: false
+tajs: 64610425
 
 # google
 google_analytics: false
@@ -129,17 +129,17 @@ less:
     - source/css/style.less
 
 # 是否使用 gitment，https://github.com/imsun/gitment
-gitment: false
-# owner: xxx
-# repo: xxx
-# client_id: xxx
-# client_secret: xxx
+gitment:
+ owner: 'FlyingAir'
+ repo: hexo-myblog
+ client_id: f725751c3357ebbcc7e7
+ client_secret: 9ad006088a426dc81dc12424baf4f1de55c1d7dd
 
-gitalk: false
-# owner: xxx
-# repo: xxx
-# client_id: xxx
-# client_secret: xxx
+gitalk:
+ owner: 'FlyingAir'
+ repo: hexo-myblog
+ client_id: f725751c3357ebbcc7e7
+ client_secret: 9ad006088a426dc81dc12424baf4f1de55c1d7dd
 
 # Valine Comment system. https://valine.js.org
 valine:

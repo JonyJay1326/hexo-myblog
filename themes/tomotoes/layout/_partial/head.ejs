@@ -24,7 +24,12 @@
             title = (theme.tags_title || 'Tags') + ': ' + page.tag;
         }
     %>
-    <title><% if (title){ %><%= title %> | <% } %><%= config.title %><% if (config.subtitle){ %> | <%= config.subtitle %><% } %></title>
+    <title>
+    <%= config.title %> |
+    <% if (title){ %>
+    <%= title %>
+    <% } %>
+    <% if (config.subtitle){ %> | <%= config.subtitle %><% } %></title>
     <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <% if(theme.color){ %>
     <meta name="theme-color" content="<%=theme.color%>">
@@ -41,11 +46,11 @@
     }
     %>
     <meta name="keywords" content="<%= keyWords %>">
-    
+
     <%- partial('plugins/google-analytics') %>
     <%- partial('plugins/tajs') %>
     <%- partial('plugins/baidu') %>
-    
+
     <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
     <% if ((config.feed) && (config.feed.path.length)) { %>
         <link rel="alternate" type="application/atom+xml" title="<%= config.title %>" href="<%- url_for(config.feed.path) %>">
@@ -60,5 +65,5 @@
             <%- site.data.head[i] %>
         <% } %>
     <% } %>
-            
+
 </head>
