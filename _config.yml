@@ -53,7 +53,7 @@ index_generator:
   order_by: -date
   
 # Category & Tag
-default_category: uncategorized
+default_category: 杂
 category_map:
 tag_map:
 
