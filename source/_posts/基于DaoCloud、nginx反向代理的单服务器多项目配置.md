@@ -1,10 +1,12 @@
 ---
-title: 基于DaoCloud、nginx反向代理的单服务器多项目配置
+title: 基于DaoCloud的持续化环境配置
 abbrlink: 16108
 categories: "效率工具"
 tags: docker
 ---
 
+基于DaoCloud、nginx反向代理的单服务器多项目配置。
+<!-- more -->
 本文基于 https://juejin.im/post/5a142d7b6fb9a0451170c2c7 《 基于 Docker 打造前端持续集成开发环境》 ，小白研究了偷懒的方法。如有大神有更好的办法，请赐教。
 
 ## 基于DaoCloud、nginx反向代理的单服务器多项目配置

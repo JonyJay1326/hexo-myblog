@@ -9,7 +9,7 @@
     <title>
     ヽ(￣▽￣)ﾉ |
     
-    基于DaoCloud、nginx反向代理的单服务器多项目配置
+    基于DaoCloud的持续化环境配置
     
     </title>
     <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
@@ -53,13 +53,13 @@
 
 
 
-    <meta name="description" content="本文基于 https://juejin.im/post/5a142d7b6fb9a0451170c2c7 《 基于 Docker 打造前端持续集成开发环境》 ，小白研究了偷懒的方法。如有大神有更好的办法，请赐教。 基于DaoCloud、nginx反向代理的单服务器多项目配置目标：  代码无需在本地构建  只需将代码推上 Github ，自动部署  版本易管理，可轻松回退版本  配置多个docker">
+    <meta name="description" content="基于DaoCloud、nginx反向代理的单服务器多项目配置。">
 <meta name="keywords" content="docker">
 <meta property="og:type" content="article">
-<meta property="og:title" content="基于DaoCloud、nginx反向代理的单服务器多项目配置">
+<meta property="og:title" content="基于DaoCloud的持续化环境配置">
 <meta property="og:url" content="http://blog.lovefay1994.com/posts/2017/12/14/基于DaoCloud、nginx反向代理的单服务器多项目配置/index.html">
 <meta property="og:site_name" content="ヽ(￣▽￣)ﾉ">
-<meta property="og:description" content="本文基于 https://juejin.im/post/5a142d7b6fb9a0451170c2c7 《 基于 Docker 打造前端持续集成开发环境》 ，小白研究了偷懒的方法。如有大神有更好的办法，请赐教。 基于DaoCloud、nginx反向代理的单服务器多项目配置目标：  代码无需在本地构建  只需将代码推上 Github ，自动部署  版本易管理，可轻松回退版本  配置多个docker">
+<meta property="og:description" content="基于DaoCloud、nginx反向代理的单服务器多项目配置。">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://image.lovefay1994.com/blog/1513221051404.png">
 <meta property="og:image" content="http://image.lovefay1994.com/blog/1513221590500.png">
@@ -74,10 +74,10 @@
 <meta property="og:image" content="http://image.lovefay1994.com/blog/1513222380731.png">
 <meta property="og:image" content="http://image.lovefay1994.com/blog/1513222400721.png">
 <meta property="og:image" content="http://image.lovefay1994.com/blog/1513222497072.png">
-<meta property="og:updated_time" content="2017-12-14T06:31:34.762Z">
+<meta property="og:updated_time" content="2017-12-14T09:38:23.529Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="基于DaoCloud、nginx反向代理的单服务器多项目配置">
-<meta name="twitter:description" content="本文基于 https://juejin.im/post/5a142d7b6fb9a0451170c2c7 《 基于 Docker 打造前端持续集成开发环境》 ，小白研究了偷懒的方法。如有大神有更好的办法，请赐教。 基于DaoCloud、nginx反向代理的单服务器多项目配置目标：  代码无需在本地构建  只需将代码推上 Github ，自动部署  版本易管理，可轻松回退版本  配置多个docker">
+<meta name="twitter:title" content="基于DaoCloud的持续化环境配置">
+<meta name="twitter:description" content="基于DaoCloud、nginx反向代理的单服务器多项目配置。">
 <meta name="twitter:image" content="http://image.lovefay1994.com/blog/1513221051404.png">
     
         <link rel="alternate" type="application/atom+xml" title="ヽ(￣▽￣)ﾉ" href="/atom.xml">
@@ -180,7 +180,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis">基于DaoCloud、nginx反向代理的单服务器多项目配置</div>
+        <div class="flex-col header-title ellipsis">基于DaoCloud的持续化环境配置</div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -228,7 +228,7 @@
   class="post-article article-type-post fade" itemprop="blogPost">
 
     <div class="post-card">
-        <h1 class="post-card-title">基于DaoCloud、nginx反向代理的单服务器多项目配置</h1>
+        <h1 class="post-card-title">基于DaoCloud的持续化环境配置</h1>
         <div class="post-meta">
             <i class="icon icon-lg icon-calendar-o"></i>
             发表于
@@ -253,7 +253,7 @@
             阅读本文可能花费您&nbsp;<span class="post-count">3</span>&nbsp;分钟
         </div>
         <div class="post-content" id="post-content" itemprop="postContent">
-            <p>本文基于 <a href="https://juejin.im/post/5a142d7b6fb9a0451170c2c7" target="_blank" rel="noopener">https://juejin.im/post/5a142d7b6fb9a0451170c2c7</a> 《 基于 Docker 打造前端持续集成开发环境》 ，小白研究了偷懒的方法。如有大神有更好的办法，请赐教。</p>
+            <p>基于DaoCloud、nginx反向代理的单服务器多项目配置。<br><a id="more"></a><br>本文基于 <a href="https://juejin.im/post/5a142d7b6fb9a0451170c2c7" target="_blank" rel="noopener">https://juejin.im/post/5a142d7b6fb9a0451170c2c7</a> 《 基于 Docker 打造前端持续集成开发环境》 ，小白研究了偷懒的方法。如有大神有更好的办法，请赐教。</p>
 <h2 id="基于DaoCloud、nginx反向代理的单服务器多项目配置"><a href="#基于DaoCloud、nginx反向代理的单服务器多项目配置" class="headerlink" title="基于DaoCloud、nginx反向代理的单服务器多项目配置"></a>基于DaoCloud、nginx反向代理的单服务器多项目配置</h2><p><strong>目标</strong>：</p>
 <ol>
 <li><p>代码无需在本地构建</p>
@@ -391,7 +391,7 @@
     <div class="content">
         
 <span class="post-time">
-    最后更新：<time datetime="2017-12-14T06:31:34.762Z" itemprop="dateUpdated">2017-12-14 14:31:34</time>
+    最后更新：<time datetime="2017-12-14T09:38:23.529Z" itemprop="dateUpdated">2017-12-14 17:38:23</time>
 </span>
 
 
@@ -428,7 +428,7 @@
 <div class="page-share" id="pageShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://blog.lovefay1994.com/posts/2017/12/14/基于DaoCloud、nginx反向代理的单服务器多项目配置/&title=《基于DaoCloud、nginx反向代理的单服务器多项目配置》 — ヽ(￣▽￣)ﾉ&pic=http://blog.lovefay1994.com/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://blog.lovefay1994.com/posts/2017/12/14/基于DaoCloud、nginx反向代理的单服务器多项目配置/&title=《基于DaoCloud的持续化环境配置》 — ヽ(￣▽￣)ﾉ&pic=http://blog.lovefay1994.com/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -438,7 +438,7 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://blog.lovefay1994.com/posts/2017/12/14/基于DaoCloud、nginx反向代理的单服务器多项目配置/&title=《基于DaoCloud、nginx反向代理的单服务器多项目配置》 — ヽ(￣▽￣)ﾉ&source=" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://blog.lovefay1994.com/posts/2017/12/14/基于DaoCloud、nginx反向代理的单服务器多项目配置/&title=《基于DaoCloud的持续化环境配置》 — ヽ(￣▽￣)ﾉ&source=基于DaoCloud、nginx反向代理的单服务器多项目配置。" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
@@ -448,7 +448,7 @@
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《基于DaoCloud、nginx反向代理的单服务器多项目配置》 — ヽ(￣▽￣)ﾉ&url=http://blog.lovefay1994.com/posts/2017/12/14/基于DaoCloud、nginx反向代理的单服务器多项目配置/&via=http://blog.lovefay1994.com" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《基于DaoCloud的持续化环境配置》 — ヽ(￣▽￣)ﾉ&url=http://blog.lovefay1994.com/posts/2017/12/14/基于DaoCloud、nginx反向代理的单服务器多项目配置/&via=http://blog.lovefay1994.com" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
@@ -593,7 +593,7 @@
 <div class="global-share" id="globalShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://blog.lovefay1994.com/posts/2017/12/14/基于DaoCloud、nginx反向代理的单服务器多项目配置/&title=《基于DaoCloud、nginx反向代理的单服务器多项目配置》 — ヽ(￣▽￣)ﾉ&pic=http://blog.lovefay1994.com/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://blog.lovefay1994.com/posts/2017/12/14/基于DaoCloud、nginx反向代理的单服务器多项目配置/&title=《基于DaoCloud的持续化环境配置》 — ヽ(￣▽￣)ﾉ&pic=http://blog.lovefay1994.com/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -603,7 +603,7 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://blog.lovefay1994.com/posts/2017/12/14/基于DaoCloud、nginx反向代理的单服务器多项目配置/&title=《基于DaoCloud、nginx反向代理的单服务器多项目配置》 — ヽ(￣▽￣)ﾉ&source=" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://blog.lovefay1994.com/posts/2017/12/14/基于DaoCloud、nginx反向代理的单服务器多项目配置/&title=《基于DaoCloud的持续化环境配置》 — ヽ(￣▽￣)ﾉ&source=基于DaoCloud、nginx反向代理的单服务器多项目配置。" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
@@ -613,7 +613,7 @@
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《基于DaoCloud、nginx反向代理的单服务器多项目配置》 — ヽ(￣▽￣)ﾉ&url=http://blog.lovefay1994.com/posts/2017/12/14/基于DaoCloud、nginx反向代理的单服务器多项目配置/&via=http://blog.lovefay1994.com" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《基于DaoCloud的持续化环境配置》 — ヽ(￣▽￣)ﾉ&url=http://blog.lovefay1994.com/posts/2017/12/14/基于DaoCloud、nginx反向代理的单服务器多项目配置/&via=http://blog.lovefay1994.com" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
