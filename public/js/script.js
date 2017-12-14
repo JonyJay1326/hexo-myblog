@@ -603,9 +603,9 @@ function getHitokoto() {
         dataType: "json",
         timeout: 2500,
         success: function (data) {
-            if (data.hitokoto.length > 15) {
+            if (data.hitokoto.length > 12) {
                 countFail++;
-                if (countFail > 5) {
+                if (countFail > 4) {
                     elasticText({
                         id: "yiyanmotto",
                         duration: 100,

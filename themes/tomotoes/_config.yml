@@ -3,7 +3,6 @@
 #   text ：显示文本
 #   url ： 链接
 #   target: 链接的锚点 是否在本站中打开链接
-
 # 主菜单
 menu:
   home:
