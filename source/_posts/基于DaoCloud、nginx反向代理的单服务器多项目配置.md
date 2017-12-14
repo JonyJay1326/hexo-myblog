@@ -28,7 +28,7 @@ tags: docker
 1. 初始化 vue 项目：vue init webpack jay-www
 
 2. 在项目根目录下编 Dockerfile
- ![Alt text](image.lovefay1994.com/blog/1513221051404.png)
+ ![image](http://image.lovefay1994.com/blog/1513221051404.png)
 `这里的DockerFIle配置没有仔细看 - - 只求偷懒。 技术有限，写的也都是些杂七杂八的就不做.gitignore /dist了,项目中直接构建好了提交。有各种优化Docker 容器运行速度的方法请google/baidu`
 
 3. 初始化 git， 连接并将代码推送到 Github 仓库，
@@ -40,37 +40,37 @@ tags: docker
 
 2. 用户中心 -> 代码托管，授权可访问你的 Github 仓库
 
-![Alt text](image.lovefay1994.com/blog/1513221590500.png)
+![image](http://image.lovefay1994.com/blog/1513221590500.png)
 
 3. 在 Devops 项目中新建一个项目，并选择 Github 中对应刚才新创建的项目
-![Alt text](image.lovefay1994.com/blog/1513221698617.png)
+![image](http://image.lovefay1994.com/blog/1513221698617.png)
 
 4. 先手动构建一个镜像版本，便于下面用这个镜像版本创建一个应用
-![Alt text](image.lovefay1994.com/blog/1513221750037.png)
+![image](http://image.lovefay1994.com/blog/1513221750037.png)
 
 5. 连接自有主机
-![Alt text](image.lovefay1994.com/blog/1513221802241.png)
-![Alt text](image.lovefay1994.com/blog/1513221841755.png)
+![image](http://image.lovefay1994.com/blog/1513221802241.png)
+![image](http://image.lovefay1994.com/blog/1513221841755.png)
 
 太酷了，我们已经将我们的主机接入了 DaoCloud，接下来就来完成最有意思的一步。
 
 6. 创建一个应用
 
 进入【镜像仓库】选择刚才手动构建出来的镜像，并部署最新版本到自由主机或者云端测试环境
-![Alt text](image.lovefay1994.com/blog/1513221982263.png)
-![Alt text](image.lovefay1994.com/blog/1513222006950.png)
+![image](http://image.lovefay1994.com/blog/1513221982263.png)
+![image](http://image.lovefay1994.com/blog/1513222006950.png)
 
 稍等片刻，便可以点击“立即部署”
-![Alt text](image.lovefay1994.com/blog/1513222246813.png)
+![image](http://image.lovefay1994.com/blog/1513222246813.png)
 这边需要注意 : **主机端口** 将会与主机中nginx反向代理配置有关系 
-![Alt text](image.lovefay1994.com/blog/1513222327949.png)
+![image](http://image.lovefay1994.com/blog/1513222327949.png)
 7.定义自动构建，自动发布任务
-![Alt text](image.lovefay1994.com/blog/1513222380731.png)
-![Alt text](image.lovefay1994.com/blog/1513222400721.png)
+![image](http://image.lovefay1994.com/blog/1513222380731.png)
+![image](http://image.lovefay1994.com/blog/1513222400721.png)
 至此，我们已经完成了，所有流程控制工作，去测试一下整个流程是否能走通？
 #### 第三步： 测试整个流程
 回到我们本地，修改一下文本内容，提交，并推送到远端，
-![Alt text](image.lovefay1994.com/blog/1513222497072.png)
+![image](http://image.lovefay1994.com/blog/1513222497072.png)
 至此，我们在只编写了一个 Dockerfile 配置文件，没有编写脚本的情况下，成功地搭建了一套前端的持续集成开发环境。
 
 #### 配置单主机不同域名 对应不同项目 
