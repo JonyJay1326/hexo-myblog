@@ -2,7 +2,7 @@
 title: 基于DaoCloud的持续化环境配置
 abbrlink: 16108
 categories: "效率工具"
-tags: docker
+tags: [docker,nginx]
 ---
 
 基于DaoCloud、nginx反向代理的单服务器多项目配置。
