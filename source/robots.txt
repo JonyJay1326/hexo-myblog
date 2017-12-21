@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/ 
+
+Sitemap: http://blog.lovefay1994.com/sitemap.xml
+Sitemap: http://blog.lovefay1994.com/baidusitemap.xml
