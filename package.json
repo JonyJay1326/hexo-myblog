@@ -5,6 +5,10 @@
   "hexo": {
     "version": "3.4.3"
   },
+  "scripts": {
+    "prebuild": "hexo clean",
+    "build": "hexo g"
+  },
   "dependencies": {
     "hexo": "^3.2.0",
     "hexo-abbrlink": "^2.0.4",

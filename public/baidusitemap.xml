@@ -3,6 +3,28 @@
 
 
     
+  <url>
+    <loc>http://blog.lovefay1994.com//posts/16108/</loc>
+    <lastmod>2018-02-08T09:45:16.925Z</lastmod>
+    <data>
+        <display>
+        <title>基于DaoCloud的持续化环境配置</title>
+        <pubTime>2017-12-14T05:06:07.212Z</pubTime>
+        
+        <tag>docker</tag>
+         
+        <tag>nginx</tag>
+         
+         
+           
+             
+              <breadCrumb title="效率工具" url="http://blog.lovefay1994.com/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
     
   <url>
@@ -41,28 +63,6 @@
            
              
               <breadCrumb title="杂" url="http://blog.lovefay1994.com/categories/%E6%9D%82/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.lovefay1994.com//posts/16108/</loc>
-    <lastmod>2017-12-14T09:56:10.134Z</lastmod>
-    <data>
-        <display>
-        <title>基于DaoCloud的持续化环境配置</title>
-        <pubTime>2017-12-14T05:06:07.212Z</pubTime>
-        
-        <tag>docker</tag>
-         
-        <tag>nginx</tag>
-         
-         
-           
-             
-              <breadCrumb title="效率工具" url="http://blog.lovefay1994.com/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
           
         </display>
     </data>
