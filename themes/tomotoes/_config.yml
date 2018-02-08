@@ -30,11 +30,11 @@ menu2:
     target: _parent
   github:
     text: Github
-    url: https://github.com/FlyingAir
+    url: https://github.com/jonyjay1326
     target: _blank
   weixin:
     text: WeChat
-    url: http://image.lovefay1994.com/blog/wechat.jpg
+    url: http://image.jonyjay.com/blog/wechat.jpg
     target: _blank
 
 # 你的头像url
@@ -162,7 +162,7 @@ canonical: false
 since_year: 2017
 
 # footer中显示的网址
-site: blog.lovefay1994.com
+site: blog.jonyjay.com
 
 # 用户页面中作者相关的描述性文字，如不需要设为 false
 about: 业精于勤荒于嬉，行成于思毁于随
