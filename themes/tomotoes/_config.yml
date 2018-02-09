@@ -115,7 +115,7 @@ postMessage: 原文链接：<a href="<%- url_for(page.path).replace(/index\.html
 baidu_tongji: 4429e5f8f59bfcb64c5746942f625c80
 
 # 腾讯分析，如要开启，输入站点id
-tajs: 64610425
+tajs: 65241924
 
 # google
 google_analytics: false
