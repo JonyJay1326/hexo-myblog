@@ -1,8 +1,12 @@
-FROM daocloud.io/library/nginx
+FROM node:8.1-alpine
+RUN apt-get update \
+    && apt-get install -y nginx
 WORKDIR /app
 COPY . /app/
 EXPOSE 8888
 
-RUN cp -r public/* /usr/share/nginx/html \
+RUN npm install \
+    && npm run build \
+    && cp -r public/* /var/www/html\
     && rm -rf /app \
 CMD ["nginx","-g","daemon off;"]
