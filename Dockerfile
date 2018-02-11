@@ -1,8 +1,8 @@
 FROM node:8.1-alpine
 # 安装nginx
-RUN apt-get update \
+RUN apt-get update || apt-get update \
     && apt-get install -y nginx
-    
+
 WORKDIR /app
 COPY . /app/
 EXPOSE 8888
