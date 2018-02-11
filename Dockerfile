@@ -1,6 +1,6 @@
 FROM node:8.1-alpine
 # 安装nginx
-RUN apt-get update || apt-get update \
+RUN apt-get update \
     && apt-get install -y nginx
 
 WORKDIR /app
@@ -10,5 +10,6 @@ EXPOSE 8888
 RUN npm install \
     && npm run build \
     && cp -r public/* /var/www/html\
-    && rm -rf /app \
+    && rm -rf /app 
+
 CMD ["nginx","-g","daemon off;"]
