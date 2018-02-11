@@ -470,7 +470,11 @@ if (window.console && window.console.log) {
 
 <script src="/js/waifu-tips.min.js?v=2.0"></script>
 <script src="/js/live2d.min.js?v=2.0"></script>
-<script type="text/javascript">initModel("/js/")</script>
+ <script type="text/javascript" defer="defer">
+//  $(function(){
+    initModel("/js/")
+//  })
+ </script>
 
 
 </body>

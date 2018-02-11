@@ -120,7 +120,6 @@ $('.waifu-tool .fui-photo').click(function (){
 var getActed = false;
 window.hitokotoTimer = 0;
 var hitokotoInterval = false;
-
 $(document).mousemove(function(e){getActed = true;}).keydown(function(){getActed = true;});
 setInterval(function() { if (!getActed) ifActed(); else elseActed(); }, 1000);
 

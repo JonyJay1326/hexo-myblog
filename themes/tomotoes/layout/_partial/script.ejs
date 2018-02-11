@@ -31,5 +31,9 @@ var BLOG = { ROOT: '<%= config.root %>', SHARE: <%- theme.share %>, REWARD: <%- 
 
 <script src="<%- url_for(theme_js('/js/waifu-tips', cache)) %>"></script>
 <script src="<%- url_for(theme_js('/js/live2d', cache)) %>"></script>
-<script type="text/javascript">initModel("/js/")</script>
+ <script type="text/javascript" defer="defer">
+//  $(function(){
+    initModel("/js/")
+//  })
+ </script>
 
