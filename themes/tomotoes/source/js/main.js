@@ -18,11 +18,11 @@
         forEach = Array.prototype.forEach,
         isWX = (/micromessenger/i).test(navigator.userAgent),
         noop = function () {},
-        offset = function (el) {
+        offset = function fn(el) {
             let x = el.offsetLeft,
                 y = el.offsetTop;
             if (el.offsetParent) {
-                const pOfs = arguments.callee(el.offsetParent);
+                const pOfs = fn(el.offsetParent);
                 x += pOfs.x;
                 y += pOfs.y;
             }
