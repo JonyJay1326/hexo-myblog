@@ -1,5 +1,5 @@
 FROM node:8.1-alpine
-RUN apt-get update \
+RUN apt-get -y update \
     && apt-get install -y nginx
 WORKDIR /app
 COPY . /app/
