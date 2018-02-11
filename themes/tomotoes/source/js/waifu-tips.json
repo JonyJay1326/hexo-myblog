@@ -1,7 +1,7 @@
 {
     "mouseover": [
         {
-            "selector": ".container a[href^='http']",
+            "selector": ".container a",
             "text": ["要看看 <span style=\"color:#0099cc;\">{text}</span> 么？"]
         },
         {
