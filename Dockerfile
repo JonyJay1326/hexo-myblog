@@ -1,11 +1,8 @@
-FROM node:8.1-alpine
+FROM daocloud.io/library/nginx
 WORKDIR /app
 COPY . /app/
 EXPOSE 8888
 
-RUN npm install \
-    && npm run build \
-    && cp -r public/* /usr/share/nginx \
-    && rm -rf /app 
-
+RUN cp -r public/* /usr/share/nginx/html \
+    && rm -rf /app \
 CMD ["nginx","-g","daemon off;"]
