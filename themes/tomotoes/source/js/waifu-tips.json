@@ -1,7 +1,7 @@
 {
     "mouseover": [
         {
-            "selector": ".container a",
+            "selector": ".container a[href^='/posts'],.container a[href^='/tags'],.container a[href^='http:'],.container a[href^='/categories']",
             "text": ["要看看 <span style=\"color:#0099cc;\">{text}</span> 么？"]
         },
         {
