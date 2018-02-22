@@ -1,7 +1,7 @@
 {
     "mouseover": [
         {
-            "selector": ".container a[href^='/posts'],.container a[href^='/tags'],.container a[href^='http:'],.container a[href^='/categories']",
+            "selector": ".container a[href^='/posts']:not('.post-more'),.container a[href^='/tags'],.container a[href^='http:'],.container a[href^='/categories']",
             "text": ["要看看 <span style=\"color:#0099cc;\">{text}</span> 么？"]
         },
         {
@@ -104,7 +104,7 @@
     "click": [
         {
             "selector": ".waifu #live2d",
-            "text": ["是…是不小心碰到了吧", "萝莉控是什么呀", "你看到我的小熊了吗", "再摸的话我可要报警了！⌇●﹏●⌇", "110吗，这里有个变态一直在摸我(ó﹏ò｡)"]
+            "text": ["是…是不小心碰到了吧", "boom ~ sha ka la ka ~", "你看到我的小熊了吗", "再摸的话我可要报警了！⌇●﹏●⌇", "110吗，这里有个变态一直在摸我(ó﹏ò｡)"]
         }
     ]
 
