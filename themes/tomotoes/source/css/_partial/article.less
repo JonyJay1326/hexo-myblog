@@ -491,6 +491,43 @@
             padding: 0;
         }
     }
+
+    h2:after{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-top: 0 solid transparent;
+        border-right-width: 1em;
+        border-right-style: solid;
+        border-right-color: inherit;
+        border-bottom: 1em solid transparent;
+        border-left: 0 solid transparent;
+        content: "";
+    }
+    h2:first-of-type{
+        border-color: #8aa9ae;
+    background-color: #59bee9;
+    }
+    h2:last-of-type{
+        border-color: #cd6375;
+     background-color: #ea4040;
+    }
+    h2{
+        position: relative;
+        display: inline-block;
+        margin-left: -53px;
+        padding: 7px 11px 7px 32px;
+        border-color: #659f74;
+        border-radius: 0 4px 4px 0;
+        background-color: #59e9a2;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+        color: #f8f8f8;
+        font-size: 16px;
+        line-height: 1;
+        transition: all .3s;
+    }
 }
 
 .comments {
