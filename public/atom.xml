@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.jonyjay.com/"/>
-  <updated>2018-04-09T07:52:09.398Z</updated>
+  <updated>2018-04-09T08:16:49.500Z</updated>
   <id>http://blog.jonyjay.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://blog.jonyjay.com//posts/16110/"/>
     <id>http://blog.jonyjay.com//posts/16110/</id>
     <published>2018-04-09T06:20:56.637Z</published>
-    <updated>2018-04-09T07:52:09.398Z</updated>
+    <updated>2018-04-09T08:16:49.500Z</updated>
     
-    <content type="html"><![CDATA[<p>整理一些前端开发工作中遇到的冷门问题。<br><a id="more"></a></p><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>测试</p><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><ol><li>transform：translate(50%,50%)的坑<blockquote><p>最近在项目提交后测试部门反馈这样的问题，在模态框打开后其中的文字和边框都出现了模糊的现象。<br>经查看发现问题原因：由于图层渲染的时候也处理了周围的文字，如果高度为奇数的文字可能会存在半个像素的计算量，浏览器对这半个像素会进行优化渲染，所以边缘会出现模糊的情况。</p></blockquote></li></ol><p>优化方法： 将元素的高度、宽度设置为偶数可解决；</p><h2 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h2><p>测试</p>]]></content>
+    <content type="html"><![CDATA[<p>整理一些前端开发工作中遇到的冷门问题。<br><a id="more"></a></p><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>测试</p><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="测试网"><a href="#测试网" class="headerlink" title="测试网"></a>测试网</h3><ol><li>transform：translate(50%,50%)的坑<blockquote><p>最近在项目提交后测试部门反馈这样的问题，在模态框打开后其中的文字和边框都出现了模糊的现象。<br>经查看发现问题原因：由于图层渲染的时候也处理了周围的文字，如果高度为奇数的文字可能会存在半个像素的计算量，浏览器对这半个像素会进行优化渲染，所以边缘会出现模糊的情况。</p></blockquote></li></ol><p>优化方法： 将元素的高度、宽度设置为偶数可解决；</p><h2 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h2><p>测试</p>]]></content>
     
     <summary type="html">
     
