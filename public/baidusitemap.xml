@@ -4,19 +4,43 @@
 
     
   <url>
+    <loc>http://blog.jonyjay.com//posts/16111/</loc>
+    <lastmod>2018-04-10T06:23:45.384Z</lastmod>
+    <data>
+        <display>
+        <title>JavaScript知识点整理</title>
+        <pubTime>2018-04-10T02:11:03.905Z</pubTime>
+        
+        <tag>JavaScript</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端" url="http://blog.jonyjay.com/categories/%E5%89%8D%E7%AB%AF/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.jonyjay.com//posts/16110/</loc>
-    <lastmod>2018-04-09T08:16:49.500Z</lastmod>
+    <lastmod>2018-04-10T02:12:29.167Z</lastmod>
     <data>
         <display>
         <title>前端开发工作中遇到的问题整理</title>
         <pubTime>2018-04-09T06:20:56.637Z</pubTime>
         
-        <tag>Hexo</tag>
+        <tag>JavaScript</tag>
+         
+        <tag>Css</tag>
+         
+        <tag>Html</tag>
          
          
            
              
-              <breadCrumb title="杂" url="http://blog.jonyjay.com/categories/%E6%9D%82/"/>
+              <breadCrumb title="前端" url="http://blog.jonyjay.com/categories/%E5%89%8D%E7%AB%AF/"/>
           
         </display>
     </data>

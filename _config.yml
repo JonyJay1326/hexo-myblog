@@ -83,4 +83,9 @@ theme: tomotoes
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: baidu_url_submitter 
+baidu_url_submit:
+    count: 1 ## 提交最新的一个链接
+    host: blog.jonyjay.com ## 在百度站长平台中注册的域名
+    token: 8HW9LnLXQmjss6uK ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+    path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
