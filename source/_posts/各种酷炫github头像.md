@@ -2,7 +2,7 @@
 title: 各种酷炫的Github头像、图片
 abbrlink: 16109
 categories: [杂]
-tags: [github,娱乐]
+tags: [娱乐,github]
 ---
 
 
