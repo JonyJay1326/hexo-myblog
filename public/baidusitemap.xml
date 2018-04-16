@@ -4,30 +4,8 @@
 
     
   <url>
-    <loc>http://blog.jonyjay.com//posts/16109/</loc>
-    <lastmod>2018-04-13T05:25:34.466Z</lastmod>
-    <data>
-        <display>
-        <title>各种酷炫的Github头像、图片</title>
-        <pubTime>2017-12-14T11:00:13.607Z</pubTime>
-        
-        <tag>娱乐</tag>
-         
-        <tag>github</tag>
-         
-         
-           
-             
-              <breadCrumb title="杂" url="http://blog.jonyjay.com/categories/%E6%9D%82/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.jonyjay.com//posts/16110/</loc>
-    <lastmod>2018-04-13T05:24:21.736Z</lastmod>
+    <lastmod>2018-04-16T03:00:37.940Z</lastmod>
     <data>
         <display>
         <title>前端开发工作中遇到的问题整理</title>
@@ -43,6 +21,48 @@
            
              
               <breadCrumb title="前端" url="http://blog.jonyjay.com/categories/%E5%89%8D%E7%AB%AF/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.jonyjay.com//posts/16112/</loc>
+    <lastmod>2018-04-13T07:03:49.531Z</lastmod>
+    <data>
+        <display>
+        <title>常见面试题 - JS</title>
+        <pubTime>2018-04-13T06:46:39.034Z</pubTime>
+        
+        <tag>JavaScript</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端" url="http://blog.jonyjay.com/categories/%E5%89%8D%E7%AB%AF/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.jonyjay.com//posts/16109/</loc>
+    <lastmod>2018-04-13T05:25:34.466Z</lastmod>
+    <data>
+        <display>
+        <title>各种酷炫的Github头像、图片</title>
+        <pubTime>2017-12-14T11:00:13.607Z</pubTime>
+        
+        <tag>娱乐</tag>
+         
+        <tag>github</tag>
+         
+         
+           
+             
+              <breadCrumb title="杂" url="http://blog.jonyjay.com/categories/%E6%9D%82/"/>
           
         </display>
     </data>
