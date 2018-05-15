@@ -5,13 +5,15 @@
     
   <url>
     <loc>http://blog.jonyjay.com//posts/16555/</loc>
-    <lastmod>2018-05-15T07:59:25.262Z</lastmod>
+    <lastmod>2018-05-15T10:28:05.260Z</lastmod>
     <data>
         <display>
         <title>H5开发实战总结</title>
         <pubTime>2018-05-15T02:12:05.103Z</pubTime>
         
-        <tag>Html、Css</tag>
+        <tag>Html</tag>
+         
+        <tag>Css</tag>
          
          
            
@@ -31,11 +33,11 @@
         <title>前端开发工作中遇到的问题整理</title>
         <pubTime>2018-04-09T06:20:56.637Z</pubTime>
         
-        <tag>JavaScript</tag>
+        <tag>Html</tag>
          
         <tag>Css</tag>
          
-        <tag>Html</tag>
+        <tag>JavaScript</tag>
          
          
            
