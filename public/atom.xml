@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.jonyjay.com/"/>
-  <updated>2018-04-13T07:03:49.531Z</updated>
+  <updated>2018-05-15T03:30:11.203Z</updated>
   <id>http://blog.jonyjay.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>H5开发实战总结</title>
+    <link href="http://blog.jonyjay.com//posts/16555/"/>
+    <id>http://blog.jonyjay.com//posts/16555/</id>
+    <published>2018-05-15T02:12:05.103Z</published>
+    <updated>2018-05-15T03:30:11.203Z</updated>
+    
+    <content type="html"><![CDATA[<p>H5开发实战小册总结<br><a id="more"></a></p><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一边看小册一边学习记录</p><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="设计稿审查"><a href="#设计稿审查" class="headerlink" title="设计稿审查"></a>设计稿审查</h3><ol><li>了解设计稿的开发友好性<pre><code>哪些地方的设计对开发不友好？是否存在展示缺陷？是否开发成本高或者根本无法实现？</code></pre></li><li><p>了解设计稿的排版布局及内容构成</p><ul><li>跨页面可复用组件(Header、Footer)</li><li>当前页面可复用组件(重复部分)<h3 id="编写页面骨骼框架"><a href="#编写页面骨骼框架" class="headerlink" title="编写页面骨骼框架"></a>编写页面骨骼框架</h3><h4 id="盒模型"><a href="#盒模型" class="headerlink" title="盒模型"></a>盒模型</h4>content-box（标准盒模型）:</li></ul><p>一个块的总宽度= width  + padding(左右) + border(左右)</p></li></ol><p>IE 浏览器下（怪异盒模型）：</p><pre><code>一个块的总宽度= width + margin(左右)（即width已经包含了padding和border值）  </code></pre><p>border-box （怪异盒模型）:</p><pre><code>不管 margin + border + padding + content-width 大于还是小于元素宽度 width，盒子的   总宽度始终固定为 width。</code></pre><h4 id="布局"><a href="#布局" class="headerlink" title="布局"></a>布局</h4><ul><li>普通文档流布局<br>  默认的布局方式，由块级元素（display: block）和行内元素（display: inline）等组成，元素之间按照从左到右，从上到下的顺序排列。</li><li>浮动布局<br>  相对于普通文档流布局，浮动布局会脱离普通文档流，分为左右浮动，一般会在普通文档流布局的上面进行界面的布局，如果想避免浮动布局遮盖普通布局的情况，可以考虑使用清除浮动。<ul><li>添加空div标签 clear:both</li><li>父级标签overflow:hidden</li><li>父级标签定义伪类after<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.clearfix</span><span class="selector-pseudo">:before</span>, <span class="selector-class">.clearfix</span><span class="selector-pseudo">:after</span> &#123; </span><br><span class="line">    <span class="attribute">content</span>:<span class="string">""</span>; <span class="attribute">display</span>:table; </span><br><span class="line">&#125;</span><br><span class="line"> <span class="selector-class">.clearfix</span><span class="selector-pseudo">:after</span>&#123; </span><br><span class="line">    <span class="attribute">clear</span>:both; <span class="attribute">overflow</span>:hidden; </span><br><span class="line"> &#125;</span><br><span class="line">  <span class="selector-class">.clearfix</span>&#123; <span class="attribute">zoom</span>:<span class="number">1</span>; &#125;</span><br></pre></td></tr></table></figure></li></ul></li></ul><h2 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h2><p>未完待续 …</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;H5开发实战小册总结&lt;br&gt;
+    
+    </summary>
+    
+      <category term="前端" scheme="http://blog.jonyjay.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="Html、Css" scheme="http://blog.jonyjay.com/tags/Html%E3%80%81Css/"/>
+    
+  </entry>
   
   <entry>
     <title>常见面试题 - JS</title>
