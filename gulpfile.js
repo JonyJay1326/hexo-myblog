@@ -13,9 +13,9 @@ gulp.task('minCss', function () {
         .pipe(gulp.dest(asset.public));
 });
 gulp.task('minJs', function () {
-    return gulp.src(asset.js)  
-        .pipe(plugins.babel())
-        .pipe(plugins.uglify())
+    return gulp.src(asset.js)
+        // .pipe(plugins.babel())
+        // .pipe(plugins.uglify())
         .pipe(plugins.rename({suffix: '.min'}))
         .pipe(gulp.dest(asset.public));
 });
