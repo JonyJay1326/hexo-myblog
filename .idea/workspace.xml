@@ -2,58 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be7fb47-c8c8-439b-a3ff-d23cef419035" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/archives/2017/12/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/archives/2017/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/archives/2018/04/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/archives/2018/05/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/archives/2018/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/archives/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/atom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/atom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/baidu_urls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/baidu_urls.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/baidu_verify_FOVRu3iTRH.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/baidu_verify_FOVRu3iTRH.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/baidusitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/baidusitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/前端/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/前端/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/效率工具/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/效率工具/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/杂/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/杂/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/content.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/waifu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/googled4d43399f2f06199.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/googled4d43399f2f06199.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/live2d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/waifu-tips.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/waifu-tips.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/16107/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/16107/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/16108/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/16108/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/16109/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/16109/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/16110/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/16110/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/16111/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/16111/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/16112/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/16112/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/16555/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/16555/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/Css/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/Css/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/Hexo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/Hexo/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/Html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/Html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/JavaScript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/JavaScript/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/docker/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/docker/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/github/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/github/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/nginx/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/nginx/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/娱乐/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/娱乐/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/tomotoes/layout/_partial/live2d.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/about/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/2019/04/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/2019/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/atom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/baidu_urls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/baidu_verify_FOVRu3iTRH.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/baidusitemap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/前端/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/效率工具/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/杂/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/flat-ui-icons-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/flat-ui-icons-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/flat-ui-icons-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/flat-ui-icons-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/fontawesome/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/fontawesome/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/fontawesome/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/fontawesome/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/fontawesome/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/fontawesome/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/roboto/Roboto-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/roboto/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/roboto/Roboto-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/roboto/Roboto-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/roboto/Roboto-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/roboto/Roboto-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/roboto/Roboto-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/roboto/Roboto-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/roboto/Roboto-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/roboto/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/roboto/Roboto-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/roboto/Roboto-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/roboto/Roboto-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/roboto/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/roboto/Roboto-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/roboto/Roboto-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/roboto/Roboto-Thin.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/roboto/Roboto-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/roboto/Roboto-Thin.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/roboto/Roboto-Thin.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/googled4d43399f2f06199.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/alipay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/cc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/default.cur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/dog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/img-err.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/img-loading.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/pointer.cur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/wechat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/16107/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/16108/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/16109/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/16110/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/16111/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/16112/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/16555/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/Css/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/Hexo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/Html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/JavaScript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/docker/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/github/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/nginx/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/娱乐/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/tomotoes/layout/_partial/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/tomotoes/layout/_partial/head.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/tomotoes/layout/_partial/script.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/tomotoes/layout/_partial/script.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/tomotoes/layout/layout.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/tomotoes/layout/layout.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/tomotoes/source/css/waifu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/tomotoes/source/js/live2d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/tomotoes/source/js/waifu-tips.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/tomotoes/source/js/waifu-tips.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -81,26 +109,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/tomotoes/source/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="489" column="21" selection-start-line="489" selection-start-column="21" selection-end-line="489" selection-end-column="21" />
+            <state relative-caret-position="284">
+              <caret line="491" column="94" lean-forward="true" selection-start-line="491" selection-start-column="94" selection-end-line="491" selection-end-column="94" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
+        <entry file="file://$PROJECT_DIR$/themes/tomotoes/layout/_partial/head.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="680" column="7" lean-forward="true" selection-start-line="680" selection-start-column="7" selection-end-line="680" selection-end-column="7" />
+            <state relative-caret-position="113">
+              <caret line="46" column="6" lean-forward="true" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/tomotoes/layout/_partial/script.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="593">
+              <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/tomotoes/layout/layout.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -114,13 +151,18 @@
       <find>不蒜子</find>
       <find>initModel</find>
       <find>init</find>
-      <find>usr/themes/Moricolor/assets/waifu-</find>
       <find>live2d</find>
       <find>_partial/live2d</find>
+      <find>usr/themes/Moricolor/assets/waifu-</find>
+      <find>waifu-tips.min</find>
+      <find>waifu</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
+    <dirStrings>
+      <dir>D:\myBlog\hexo-myblog\themes\tomotoes\layout</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -134,9 +176,10 @@
         <option value="$PROJECT_DIR$/themes/tomotoes/source/css/waifu.css" />
         <option value="$PROJECT_DIR$/public/baidu_verify_FOVRu3iTRH.html" />
         <option value="$PROJECT_DIR$/themes/tomotoes/source/js/waifu-tips.js" />
-        <option value="$PROJECT_DIR$/themes/tomotoes/layout/_partial/script.ejs" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/themes/tomotoes/layout/layout.ejs" />
+        <option value="$PROJECT_DIR$/themes/tomotoes/layout/_partial/head.ejs" />
+        <option value="$PROJECT_DIR$/themes/tomotoes/layout/_partial/script.ejs" />
       </list>
     </option>
   </component>
@@ -174,15 +217,7 @@
               <item name="hexo-myblog" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="tomotoes" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexo-myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexo-myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="tomotoes" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -220,12 +255,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554714554054</updated>
-      <workItem from="1554714555561" duration="1403000" />
+      <workItem from="1554714555561" duration="1621000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1403000" />
+    <option name="totallyTimeSpent" value="1621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -233,7 +268,7 @@
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
@@ -295,13 +330,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/tomotoes/layout/_partial/script.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/tomotoes/source/js/waifu-tips.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -336,24 +364,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/tomotoes/layout/layout.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/tomotoes/source/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="489" column="21" selection-start-line="489" selection-start-column="21" selection-end-line="489" selection-end-column="21" />
+        <state relative-caret-position="284">
+          <caret line="491" column="94" lean-forward="true" selection-start-line="491" selection-start-column="94" selection-end-line="491" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/tomotoes/layout/_partial/head.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="46" column="6" lean-forward="true" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="680" column="7" lean-forward="true" selection-start-line="680" selection-start-column="7" selection-end-line="680" selection-end-column="7" />
+        <state relative-caret-position="181">
+          <caret line="679" column="7" lean-forward="true" selection-start-line="679" selection-start-column="7" selection-end-line="679" selection-end-column="7" />
+          <folding>
+            <element signature="e#2888#2894#1" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#footer#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#i#0;n#span#2;n#div#0;n#footer#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#i#1;n#span#2;n#div#0;n#footer#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/tomotoes/layout/layout.ejs">
+    <entry file="file://$PROJECT_DIR$/themes/tomotoes/layout/_partial/script.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="593">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
         </state>
       </provider>
     </entry>
