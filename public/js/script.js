@@ -62,7 +62,6 @@ jQuery.extend(jQuery.easing, {
         });
     };
 }(jQuery));
-
 /* 文字音效 */
 function elasticText() {
     const args = arguments;

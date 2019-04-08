@@ -17,9 +17,12 @@ menu:
   tags:
     text: 标 签
     url: /tags
-  smile-o:
+  address-card:
     text: 关 于
     url: /about
+  paper-plane:
+    text: 导航
+    url: http://www.jonyjay.com
 
 # 图标菜单
 # 如果您没有微信公众号 您完全可以更改为 其他的链接 比如微博

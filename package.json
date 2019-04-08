@@ -7,7 +7,7 @@
   },
   "scripts": {
     "prebuild": "hexo clean",
-    "build": "hexo g",
+    "build": "hexo g && gulp",
     "postbuild": "gulp && hexo deploy"
   },
   "dependencies": {
