@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head><meta name="generator" content="Hexo 3.8.0">
     <meta http-equiv="Content-Language" content="zh-cn">
     <meta charset="utf-8">
     
@@ -54,14 +54,14 @@
 
 
     <meta name="description" content="整理一些前端开发工作中遇到的问题。">
-<meta name="keywords" content="JavaScript,Html,Css">
+<meta name="keywords" content="Html,Css,JavaScript">
 <meta property="og:type" content="article">
 <meta property="og:title" content="前端开发工作中遇到的问题整理">
 <meta property="og:url" content="http://blog.jonyjay.com/posts/16110/index.html">
 <meta property="og:site_name" content="ヽ(￣▽￣)ﾉ">
 <meta property="og:description" content="整理一些前端开发工作中遇到的问题。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-04-16T03:10:34.250Z">
+<meta property="og:updated_time" content="2019-04-08T09:02:33.069Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="前端开发工作中遇到的问题整理">
 <meta name="twitter:description" content="整理一些前端开发工作中遇到的问题。">
@@ -81,27 +81,13 @@
 
 <body>
 
-     <div class="waifu">
-    <div class="waifu-tips"></div>
-    <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
-    <div class="waifu-tool">
-        <span class="fui-home"></span>
-        <span class="fui-chat"></span>
-        <span class="fui-eye"></span>
-        <span class="fui-user"></span>
-        <span class="fui-photo"></span>
-        <span class="fui-info-circle"></span>
-        <span class="fui-cross"></span>
-    </div>
-</div>
-
     <div id="loading" class="active"></div>
-    <aside id="menu"  class="hide" >
+    <aside id="menu" class="hide">
   <div class="inner flex-row-vertical">
     <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
         <i class="icon icon-lg icon-close"></i>
     </a>
-    <div class="brand-wrap" >
+    <div class="brand-wrap">
       <div class="brand">
         <a href="/" class="avatar waves-effect waves-circle waves-light">
           <img src="/img/avatar.jpg" alt="avatar">
@@ -118,35 +104,35 @@
       <ul class="nav">
         
               <li class="waves-block waves-effect">
-                  <a href="/"  >
+                  <a href="/">
                     <i class="icon icon-lg icon-home"></i>
                     <span>主 页</span><i class="icon icon-lg icon-caret-left"></i>
                   </a>
               </li>
             
               <li class="waves-block waves-effect">
-                  <a href="/archives"  >
+                  <a href="/archives">
                     <i class="icon icon-lg icon-archives"></i>
                     <span>归 档</span><i class="icon icon-lg icon-caret-left"></i>
                   </a>
               </li>
             
               <li class="waves-block waves-effect">
-                  <a href="/categories"  >
+                  <a href="/categories">
                     <i class="icon icon-lg icon-th-list"></i>
                     <span>分 类</span><i class="icon icon-lg icon-caret-left"></i>
                   </a>
               </li>
             
               <li class="waves-block waves-effect">
-                  <a href="/tags"  >
+                  <a href="/tags">
                     <i class="icon icon-lg icon-tags"></i>
                     <span>标 签</span><i class="icon icon-lg icon-caret-left"></i>
                   </a>
               </li>
             
               <li class="waves-block waves-effect">
-                  <a href="/about"  >
+                  <a href="/about">
                     <i class="icon icon-lg icon-smile-o"></i>
                     <span>关 于</span><i class="icon icon-lg icon-caret-left"></i>
                   </a>
@@ -154,15 +140,15 @@
             
       <div class="nav2">
           
-              <a class="nav2item" data-title="Email" href="mailto:flyingair1326@gmail.com" target="_parent"title="Email" >
+              <a class="nav2item" data-title="Email" href="mailto:flyingair1326@gmail.com" target="_parent" title="Email">
                 <i class="icon icon-lg icon-envelope-o envelope-o"></i>
               </a>
           
-              <a class="nav2item" data-title="Github" href="https://github.com/jonyjay1326" target="_blank"title="Github" >
+              <a class="nav2item" data-title="Github" href="https://github.com/jonyjay1326" target="_blank" title="Github">
                 <i class="icon icon-lg icon-github github"></i>
               </a>
           
-              <a class="nav2item" data-title="WeChat" href="http://image.jonyjay.com/blog/wechat.jpg" target="_blank"title="WeChat" >
+              <a class="nav2item" data-title="WeChat" href="http://image.jonyjay.com/blog/wechat.jpg" target="_blank" title="WeChat">
                 <i class="icon icon-lg icon-weixin weixin"></i>
               </a>
           
@@ -222,21 +208,20 @@
     <aside class="post-widget">
         <nav class="post-toc-wrap" id="post-toc">
             <h4>TOC</h4>
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#前言"><span class="post-toc-number">1.</span> <span class="post-toc-text"><a href="#&#x524D;&#x8A00;" class="headerlink" title="&#x524D;&#x8A00;"></a>&#x524D;&#x8A00;</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#正文"><span class="post-toc-number">2.</span> <span class="post-toc-text"><a href="#&#x6B63;&#x6587;" class="headerlink" title="&#x6B63;&#x6587;"></a>&#x6B63;&#x6587;</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#transform：translate-50-50-的坑"><span class="post-toc-number">2.1.</span> <span class="post-toc-text"><a href="#transform&#xFF1A;translate-50-50-&#x7684;&#x5751;" class="headerlink" title="transform&#xFF1A;translate(50%,50%)&#x7684;&#x5751;"></a>transform&#xFF1A;translate(50%,50%)&#x7684;&#x5751;</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#vue-js-数据渲染成功仍报错的问题"><span class="post-toc-number">2.2.</span> <span class="post-toc-text"><a href="#vue-js-&#x6570;&#x636E;&#x6E32;&#x67D3;&#x6210;&#x529F;&#x4ECD;&#x62A5;&#x9519;&#x7684;&#x95EE;&#x9898;" class="headerlink" title="vue.js &#x6570;&#x636E;&#x6E32;&#x67D3;&#x6210;&#x529F;&#x4ECD;&#x62A5;&#x9519;&#x7684;&#x95EE;&#x9898;"></a>vue.js &#x6570;&#x636E;&#x6E32;&#x67D3;&#x6210;&#x529F;&#x4ECD;&#x62A5;&#x9519;&#x7684;&#x95EE;&#x9898;</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#vue-js-深层数据报错undefined"><span class="post-toc-number">2.3.</span> <span class="post-toc-text"><a href="#vue-js-&#x6DF1;&#x5C42;&#x6570;&#x636E;&#x62A5;&#x9519;undefined" class="headerlink" title="vue.js &#x6DF1;&#x5C42;&#x6570;&#x636E;&#x62A5;&#x9519;undefined"></a>vue.js &#x6DF1;&#x5C42;&#x6570;&#x636E;&#x62A5;&#x9519;undefined</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#结束语"><span class="post-toc-number">3.</span> <span class="post-toc-text"><a href="#&#x7ED3;&#x675F;&#x8BED;" class="headerlink" title="&#x7ED3;&#x675F;&#x8BED;"></a>&#x7ED3;&#x675F;&#x8BED;</span></a></li></ol>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#前言"><span class="post-toc-number">1.</span> <span class="post-toc-text">前言</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#正文"><span class="post-toc-number">2.</span> <span class="post-toc-text">正文</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#transform：translate-50-50-的坑"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">transform：translate(50%,50%)的坑</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#vue-js-数据渲染成功仍报错的问题"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">vue.js 数据渲染成功仍报错的问题</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#vue-js-深层数据报错undefined"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">vue.js 深层数据报错undefined</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#结束语"><span class="post-toc-number">3.</span> <span class="post-toc-text">结束语</span></a></li></ol>
         </nav>
     </aside>
    
-<article id="post-前端开发工作中遇到的问题整理"
-  class="post-article article-type-post fade" itemprop="blogPost">
+<article id="post-前端开发工作中遇到的问题整理" class="post-article article-type-post fade" itemprop="blogPost">
 
     <div class="post-card">
         <h1 class="post-card-title">前端开发工作中遇到的问题整理</h1>
         <div class="post-meta">
             <i class="icon icon-lg icon-calendar-o"></i>
             发表于
-            <time class="post-time" title="2018-04-09 14:20:56" datetime="2018-04-09T06:20:56.637Z"  itemprop="datePublished">2018-04-09</time>
+            <time class="post-time" title="2019-04-08 17:02:33" datetime="2019-04-08T09:02:33.069Z" itemprop="datePublished">2019-04-08</time>
 
-            <br id="mybreak"/>
+            <br id="mybreak">
             
 	<i class="icon icon-lg icon-folder-o"></i>
 	分类：<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/前端/">前端</a></li></ul>
@@ -244,7 +229,7 @@
 
             <i>·</i>
             
-<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style="display:none">
     <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>次浏览
 </span>
 
@@ -281,7 +266,7 @@
     <div class="content">
         
 <span class="post-time">
-    最后更新：<time datetime="2018-04-16T03:10:34.250Z" itemprop="dateUpdated">2018-04-16 11:10:34</time>
+    最后更新：<time datetime="2019-04-08T09:02:33.069Z" itemprop="dateUpdated">2019-04-08 17:02:33</time>
 </span>
 
 
@@ -367,7 +352,7 @@
   
     <div class="waves-block waves-effect prev">
       <a href="/posts/16111/" id="post-prev" class="post-nav-link">
-        <h4 class="title" >
+        <h4 class="title">
           上一篇：JavaScript知识点整理
         </h4>
       </a>
@@ -376,8 +361,8 @@
 
   
     <div class="waves-block waves-effect next">
-      <a href="/posts/16109/" id="post-next" class="post-nav-link">
-        <h4 class="title" data-hover="下一篇：各种酷炫的Github头像、图片">下一篇：各种酷炫的Github头像、图片</h4>
+      <a href="/posts/16107/" id="post-next" class="post-nav-link">
+        <h4 class="title" data-hover="下一篇：Hello World">下一篇：Hello World</h4>
       </a>
     </div>
   
@@ -419,7 +404,7 @@
             <i class="icon icon-lg icon-copyright"></i>
             2017
             <i class="icon icon-lg icon-heart"></i>
-            <a  class="site-url" href="http://blog.jonyjay.com">blog.jonyjay.com</a>
+            <a class="site-url" href="http://blog.jonyjay.com">blog.jonyjay.com</a>
             <!-- <br/>
             Power by
             <a href="https://hexo.io/" target="_blank" rel="external nofollow">Hexo</a>&nbsp;·&nbsp;
@@ -428,29 +413,29 @@
             -->
         </span>
 
-        <br/>
+        <br>
 
         <span id="RunTime" style="color:#a7a7a2;"></span>
-        <br/>
+        <br>
 
         <span>
             
 	<i class="icon icon-lg icon-user">
-<span id="busuanzi_container_site_uv" style='display:none'>
+<span id="busuanzi_container_site_uv" style="display:none">
        访问用户：<span id="busuanzi_value_site_uv"></span>
     </span>人</i>
     ·
     <i class="icon icon-lg icon-eye">
-    <span id="busuanzi_container_site_pv" style='display:none'>
+    <span id="busuanzi_container_site_pv" style="display:none">
       访问次数：<span id="busuanzi_value_site_pv"></span>
     </span>次
     </i>
 
 
         </span>
-        <br/>
+        <br>
 
-        <span class="license"><a  target="_blank" rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">博客内容遵循 知识共享 署名 - 非商业性 - 相同方式共享 4.0 国际协议</a></span>
+        <span class="license"><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">博客内容遵循 知识共享 署名 - 非商业性 - 相同方式共享 4.0 国际协议</a></span>
     </div>
 </footer>
 
@@ -471,8 +456,7 @@
         </div>
         
         <label class="reward-toggle">
-            <input id="rewardToggle" type="checkbox" class="reward-toggle-check"
-                data-wechat="/img/wechat.png" data-alipay="/img/alipay.png">
+            <input id="rewardToggle" type="checkbox" class="reward-toggle-check" data-wechat="/img/wechat.png" data-alipay="/img/alipay.png">
             <div class="reward-toggle-ctrol">
                 <span class="reward-toggle-item wechatPay">&nbsp;&nbsp;微信&nbsp;&nbsp;</span>
                 <span class="reward-toggle-item alipayPay">支付宝</span>
@@ -559,10 +543,10 @@ var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
 
 
 <!-- main博客脚本 -->
-<script src="/js/main.min.js?v=2.0" ></script>
+<script src="/js/main.min.js?v=2.0"></script>
 
 <!-- 动画&配置 -->
-<script src="/js/script.min.js?v=2.0" ></script>
+<script src="/js/script.min.js?v=2.0"></script>
 
 <!-- 脚本管理 -->
 <script>
@@ -667,16 +651,16 @@ if (window.console && window.console.log) {
 
 
 <!-- 不蒜子 -->
-
-<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
-
+<!---->
+<!--<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script>-->
+<!---->
 
 <script src="/js/waifu-tips.min.js?v=2.0"></script>
 <script src="/js/live2d.min.js?v=2.0"></script>
 <canvas id="Snow" width="412" height="949"></canvas>
 <script type="text/javascript" defer="defer">
 //  $(function(){
-    initModel("/js/")
+//     initModel("/js/")
 //  })
 
     if(true){

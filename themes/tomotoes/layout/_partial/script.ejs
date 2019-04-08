@@ -25,16 +25,16 @@ var BLOG = { ROOT: '<%= config.root %>', SHARE: <%- theme.share %>, REWARD: <%- 
 <%- partial('plugins/mathjax') %>
 
 <!-- 不蒜子 -->
-<% if (theme.visit_counter) { %>
-<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
-<% } %>
+<!--<% if (theme.visit_counter) { %>-->
+<!--<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script>-->
+<!--<% } %>-->
 
 <script src="<%- url_for(theme_js('/js/waifu-tips', cache)) %>"></script>
 <script src="<%- url_for(theme_js('/js/live2d', cache)) %>"></script>
 <canvas id="Snow" width="412" height="949"></canvas>
 <script type="text/javascript" defer="defer">
 //  $(function(){
-    initModel("/js/")
+//     initModel("/js/")
 //  })
 
     if(true){

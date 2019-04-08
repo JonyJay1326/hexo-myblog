@@ -1,160 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-
-    
-  <url>
-    <loc>http://blog.jonyjay.com//posts/16555/</loc>
-    <lastmod>2018-05-15T10:28:05.260Z</lastmod>
-    <data>
-        <display>
-        <title>H5开发实战总结</title>
-        <pubTime>2018-05-15T02:12:05.103Z</pubTime>
-        
-        <tag>Html</tag>
-         
-        <tag>Css</tag>
-         
-         
-           
-             
-              <breadCrumb title="前端" url="http://blog.jonyjay.com/categories/%E5%89%8D%E7%AB%AF/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.jonyjay.com//posts/16110/</loc>
-    <lastmod>2018-04-16T03:10:34.250Z</lastmod>
-    <data>
-        <display>
-        <title>前端开发工作中遇到的问题整理</title>
-        <pubTime>2018-04-09T06:20:56.637Z</pubTime>
-        
-        <tag>JavaScript</tag>
-         
-        <tag>Html</tag>
-         
-        <tag>Css</tag>
-         
-         
-           
-             
-              <breadCrumb title="前端" url="http://blog.jonyjay.com/categories/%E5%89%8D%E7%AB%AF/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
   <url>
     <loc>http://blog.jonyjay.com//posts/16112/</loc>
-    <lastmod>2018-04-13T07:03:49.531Z</lastmod>
-    <data>
-        <display>
-        <title>常见面试题 - JS</title>
-        <pubTime>2018-04-13T06:46:39.034Z</pubTime>
-        
-        <tag>JavaScript</tag>
-         
-         
-           
-             
-              <breadCrumb title="前端" url="http://blog.jonyjay.com/categories/%E5%89%8D%E7%AB%AF/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.jonyjay.com//posts/16109/</loc>
-    <lastmod>2018-04-13T05:25:34.466Z</lastmod>
-    <data>
-        <display>
-        <title>各种酷炫的Github头像、图片</title>
-        <pubTime>2017-12-14T11:00:13.607Z</pubTime>
-        
-        <tag>娱乐</tag>
-         
-        <tag>github</tag>
-         
-         
-           
-             
-              <breadCrumb title="杂" url="http://blog.jonyjay.com/categories/%E6%9D%82/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.jonyjay.com//posts/16111/</loc>
-    <lastmod>2018-04-11T06:51:04.629Z</lastmod>
-    <data>
-        <display>
-        <title>JavaScript知识点整理</title>
-        <pubTime>2018-04-10T02:11:03.905Z</pubTime>
-        
-        <tag>JavaScript</tag>
-         
-         
-           
-             
-              <breadCrumb title="前端" url="http://blog.jonyjay.com/categories/%E5%89%8D%E7%AB%AF/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.jonyjay.com//posts/16107/</loc>
-    <lastmod>2018-04-09T06:22:39.480Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2017-12-05T05:36:16.880Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="杂" url="http://blog.jonyjay.com/categories/%E6%9D%82/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2019-04-08</lastmod>
+  </url>  <url>
     <loc>http://blog.jonyjay.com//posts/16108/</loc>
-    <lastmod>2018-04-09T06:22:26.110Z</lastmod>
-    <data>
-        <display>
-        <title>基于DaoCloud的持续化环境配置</title>
-        <pubTime>2017-12-14T05:06:07.212Z</pubTime>
-        
-        <tag>docker</tag>
-         
-        <tag>nginx</tag>
-         
-         
-           
-             
-              <breadCrumb title="效率工具" url="http://blog.jonyjay.com/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-    
-    
-    
+    <lastmod>2019-04-08</lastmod>
+  </url>  <url>
+    <loc>http://blog.jonyjay.com//posts/16109/</loc>
+    <lastmod>2019-04-08</lastmod>
+  </url>  <url>
+    <loc>http://blog.jonyjay.com//posts/16111/</loc>
+    <lastmod>2019-04-08</lastmod>
+  </url>  <url>
+    <loc>http://blog.jonyjay.com//posts/16110/</loc>
+    <lastmod>2019-04-08</lastmod>
+  </url>  <url>
+    <loc>http://blog.jonyjay.com//posts/16107/</loc>
+    <lastmod>2019-04-08</lastmod>
+  </url>  <url>
+    <loc>http://blog.jonyjay.com//posts/16555/</loc>
+    <lastmod>2019-04-08</lastmod>
+  </url>
 </urlset>

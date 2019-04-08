@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head><meta name="generator" content="Hexo 3.8.0">
     <meta http-equiv="Content-Language" content="zh-cn">
     <meta charset="utf-8">
     
@@ -74,7 +74,7 @@
 <meta property="og:image" content="http://image.jonyjay.com/blog/1513222380731.png">
 <meta property="og:image" content="http://image.jonyjay.com/blog/1513222400721.png">
 <meta property="og:image" content="http://image.jonyjay.com/blog/1513222497072.png">
-<meta property="og:updated_time" content="2018-04-09T06:22:26.110Z">
+<meta property="og:updated_time" content="2019-04-08T09:02:33.070Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="基于DaoCloud的持续化环境配置">
 <meta name="twitter:description" content="基于DaoCloud、nginx反向代理的单服务器多项目配置。">
@@ -95,27 +95,13 @@
 
 <body>
 
-     <div class="waifu">
-    <div class="waifu-tips"></div>
-    <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
-    <div class="waifu-tool">
-        <span class="fui-home"></span>
-        <span class="fui-chat"></span>
-        <span class="fui-eye"></span>
-        <span class="fui-user"></span>
-        <span class="fui-photo"></span>
-        <span class="fui-info-circle"></span>
-        <span class="fui-cross"></span>
-    </div>
-</div>
-
     <div id="loading" class="active"></div>
-    <aside id="menu"  class="hide" >
+    <aside id="menu" class="hide">
   <div class="inner flex-row-vertical">
     <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
         <i class="icon icon-lg icon-close"></i>
     </a>
-    <div class="brand-wrap" >
+    <div class="brand-wrap">
       <div class="brand">
         <a href="/" class="avatar waves-effect waves-circle waves-light">
           <img src="/img/avatar.jpg" alt="avatar">
@@ -132,35 +118,35 @@
       <ul class="nav">
         
               <li class="waves-block waves-effect">
-                  <a href="/"  >
+                  <a href="/">
                     <i class="icon icon-lg icon-home"></i>
                     <span>主 页</span><i class="icon icon-lg icon-caret-left"></i>
                   </a>
               </li>
             
               <li class="waves-block waves-effect">
-                  <a href="/archives"  >
+                  <a href="/archives">
                     <i class="icon icon-lg icon-archives"></i>
                     <span>归 档</span><i class="icon icon-lg icon-caret-left"></i>
                   </a>
               </li>
             
               <li class="waves-block waves-effect">
-                  <a href="/categories"  >
+                  <a href="/categories">
                     <i class="icon icon-lg icon-th-list"></i>
                     <span>分 类</span><i class="icon icon-lg icon-caret-left"></i>
                   </a>
               </li>
             
               <li class="waves-block waves-effect">
-                  <a href="/tags"  >
+                  <a href="/tags">
                     <i class="icon icon-lg icon-tags"></i>
                     <span>标 签</span><i class="icon icon-lg icon-caret-left"></i>
                   </a>
               </li>
             
               <li class="waves-block waves-effect">
-                  <a href="/about"  >
+                  <a href="/about">
                     <i class="icon icon-lg icon-smile-o"></i>
                     <span>关 于</span><i class="icon icon-lg icon-caret-left"></i>
                   </a>
@@ -168,15 +154,15 @@
             
       <div class="nav2">
           
-              <a class="nav2item" data-title="Email" href="mailto:flyingair1326@gmail.com" target="_parent"title="Email" >
+              <a class="nav2item" data-title="Email" href="mailto:flyingair1326@gmail.com" target="_parent" title="Email">
                 <i class="icon icon-lg icon-envelope-o envelope-o"></i>
               </a>
           
-              <a class="nav2item" data-title="Github" href="https://github.com/jonyjay1326" target="_blank"title="Github" >
+              <a class="nav2item" data-title="Github" href="https://github.com/jonyjay1326" target="_blank" title="Github">
                 <i class="icon icon-lg icon-github github"></i>
               </a>
           
-              <a class="nav2item" data-title="WeChat" href="http://image.jonyjay.com/blog/wechat.jpg" target="_blank"title="WeChat" >
+              <a class="nav2item" data-title="WeChat" href="http://image.jonyjay.com/blog/wechat.jpg" target="_blank" title="WeChat">
                 <i class="icon icon-lg icon-weixin weixin"></i>
               </a>
           
@@ -236,21 +222,20 @@
     <aside class="post-widget">
         <nav class="post-toc-wrap" id="post-toc">
             <h4>TOC</h4>
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#基于DaoCloud、nginx反向代理的单服务器多项目配置"><span class="post-toc-number">1.</span> <span class="post-toc-text"><a href="#&#x57FA;&#x4E8E;DaoCloud&#x3001;nginx&#x53CD;&#x5411;&#x4EE3;&#x7406;&#x7684;&#x5355;&#x670D;&#x52A1;&#x5668;&#x591A;&#x9879;&#x76EE;&#x914D;&#x7F6E;" class="headerlink" title="&#x57FA;&#x4E8E;DaoCloud&#x3001;nginx&#x53CD;&#x5411;&#x4EE3;&#x7406;&#x7684;&#x5355;&#x670D;&#x52A1;&#x5668;&#x591A;&#x9879;&#x76EE;&#x914D;&#x7F6E;"></a>&#x57FA;&#x4E8E;DaoCloud&#x3001;nginx&#x53CD;&#x5411;&#x4EE3;&#x7406;&#x7684;&#x5355;&#x670D;&#x52A1;&#x5668;&#x591A;&#x9879;&#x76EE;&#x914D;&#x7F6E;</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#用简单的vue-cli项目举例"><span class="post-toc-number">1.1.</span> <span class="post-toc-text"><a href="#&#x7528;&#x7B80;&#x5355;&#x7684;vue-cli&#x9879;&#x76EE;&#x4E3E;&#x4F8B;" class="headerlink" title="&#x7528;&#x7B80;&#x5355;&#x7684;vue-cli&#x9879;&#x76EE;&#x4E3E;&#x4F8B;"></a>&#x7528;&#x7B80;&#x5355;&#x7684;vue-cli&#x9879;&#x76EE;&#x4E3E;&#x4F8B;</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#第一步：-初始化-Vue-项目（使用vue官方脚手架-vue-cli）"><span class="post-toc-number">1.1.1.</span> <span class="post-toc-text"><a href="#&#x7B2C;&#x4E00;&#x6B65;&#xFF1A;-&#x521D;&#x59CB;&#x5316;-Vue-&#x9879;&#x76EE;&#xFF08;&#x4F7F;&#x7528;vue&#x5B98;&#x65B9;&#x811A;&#x624B;&#x67B6;-vue-cli&#xFF09;" class="headerlink" title="&#x7B2C;&#x4E00;&#x6B65;&#xFF1A; &#x521D;&#x59CB;&#x5316; Vue &#x9879;&#x76EE;&#xFF08;&#x4F7F;&#x7528;vue&#x5B98;&#x65B9;&#x811A;&#x624B;&#x67B6; vue-cli&#xFF09;"></a>&#x7B2C;&#x4E00;&#x6B65;&#xFF1A; &#x521D;&#x59CB;&#x5316; Vue &#x9879;&#x76EE;&#xFF08;&#x4F7F;&#x7528;vue&#x5B98;&#x65B9;&#x811A;&#x624B;&#x67B6; vue-cli&#xFF09;</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#第二步：使用-DaoCloud-搭建-开发流程"><span class="post-toc-number">1.1.2.</span> <span class="post-toc-text"><a href="#&#x7B2C;&#x4E8C;&#x6B65;&#xFF1A;&#x4F7F;&#x7528;-DaoCloud-&#x642D;&#x5EFA;-&#x5F00;&#x53D1;&#x6D41;&#x7A0B;" class="headerlink" title="&#x7B2C;&#x4E8C;&#x6B65;&#xFF1A;&#x4F7F;&#x7528; DaoCloud &#x642D;&#x5EFA; &#x5F00;&#x53D1;&#x6D41;&#x7A0B;"></a>&#x7B2C;&#x4E8C;&#x6B65;&#xFF1A;&#x4F7F;&#x7528; DaoCloud &#x642D;&#x5EFA; &#x5F00;&#x53D1;&#x6D41;&#x7A0B;</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#第三步：-测试整个流程"><span class="post-toc-number">1.1.3.</span> <span class="post-toc-text"><a href="#&#x7B2C;&#x4E09;&#x6B65;&#xFF1A;-&#x6D4B;&#x8BD5;&#x6574;&#x4E2A;&#x6D41;&#x7A0B;" class="headerlink" title="&#x7B2C;&#x4E09;&#x6B65;&#xFF1A; &#x6D4B;&#x8BD5;&#x6574;&#x4E2A;&#x6D41;&#x7A0B;"></a>&#x7B2C;&#x4E09;&#x6B65;&#xFF1A; &#x6D4B;&#x8BD5;&#x6574;&#x4E2A;&#x6D41;&#x7A0B;</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#配置单主机不同域名-对应不同项目"><span class="post-toc-number">1.1.4.</span> <span class="post-toc-text"><a href="#&#x914D;&#x7F6E;&#x5355;&#x4E3B;&#x673A;&#x4E0D;&#x540C;&#x57DF;&#x540D;-&#x5BF9;&#x5E94;&#x4E0D;&#x540C;&#x9879;&#x76EE;" class="headerlink" title="&#x914D;&#x7F6E;&#x5355;&#x4E3B;&#x673A;&#x4E0D;&#x540C;&#x57DF;&#x540D; &#x5BF9;&#x5E94;&#x4E0D;&#x540C;&#x9879;&#x76EE;"></a>&#x914D;&#x7F6E;&#x5355;&#x4E3B;&#x673A;&#x4E0D;&#x540C;&#x57DF;&#x540D; &#x5BF9;&#x5E94;&#x4E0D;&#x540C;&#x9879;&#x76EE;</span></a></li></ol></li></ol></li></ol>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#基于DaoCloud、nginx反向代理的单服务器多项目配置"><span class="post-toc-number">1.</span> <span class="post-toc-text">基于DaoCloud、nginx反向代理的单服务器多项目配置</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#用简单的vue-cli项目举例"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">用简单的vue-cli项目举例</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#第一步：-初始化-Vue-项目（使用vue官方脚手架-vue-cli）"><span class="post-toc-number">1.1.1.</span> <span class="post-toc-text">第一步： 初始化 Vue 项目（使用vue官方脚手架 vue-cli）</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#第二步：使用-DaoCloud-搭建-开发流程"><span class="post-toc-number">1.1.2.</span> <span class="post-toc-text">第二步：使用 DaoCloud 搭建 开发流程</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#第三步：-测试整个流程"><span class="post-toc-number">1.1.3.</span> <span class="post-toc-text">第三步： 测试整个流程</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#配置单主机不同域名-对应不同项目"><span class="post-toc-number">1.1.4.</span> <span class="post-toc-text">配置单主机不同域名 对应不同项目</span></a></li></ol></li></ol></li></ol>
         </nav>
     </aside>
    
-<article id="post-基于DaoCloud、nginx反向代理的单服务器多项目配置"
-  class="post-article article-type-post fade" itemprop="blogPost">
+<article id="post-基于DaoCloud、nginx反向代理的单服务器多项目配置" class="post-article article-type-post fade" itemprop="blogPost">
 
     <div class="post-card">
         <h1 class="post-card-title">基于DaoCloud的持续化环境配置</h1>
         <div class="post-meta">
             <i class="icon icon-lg icon-calendar-o"></i>
             发表于
-            <time class="post-time" title="2017-12-14 13:06:07" datetime="2017-12-14T05:06:07.212Z"  itemprop="datePublished">2017-12-14</time>
+            <time class="post-time" title="2019-04-08 17:02:33" datetime="2019-04-08T09:02:33.070Z" itemprop="datePublished">2019-04-08</time>
 
-            <br id="mybreak"/>
+            <br id="mybreak">
             
 	<i class="icon icon-lg icon-folder-o"></i>
 	分类：<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/效率工具/">效率工具</a></li></ul>
@@ -258,7 +243,7 @@
 
             <i>·</i>
             
-<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style="display:none">
     <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>次浏览
 </span>
 
@@ -288,7 +273,7 @@
 <figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
-                    <img src="http://image.jonyjay.com/blog/1513221051404.png" alt="" title="">
+                    <img src="http://image.jonyjay.com/blog/1513221051404.png" alt title>
                 </div>
                 <div class="image-caption"></div>
             </figure>
@@ -306,16 +291,16 @@
 <figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
-                    <img src="http://image.jonyjay.com/blog/1513221590500.png" alt="" title="">
+                    <img src="http://image.jonyjay.com/blog/1513221590500.png" alt title>
                 </div>
                 <div class="image-caption"></div>
             </figure>
-<ol>
+<ol start="3">
 <li><p>在 Devops 项目中新建一个项目，并选择 Github 中对应刚才新创建的项目</p>
 <figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
-                    <img src="http://image.jonyjay.com/blog/1513221698617.png" alt="" title="">
+                    <img src="http://image.jonyjay.com/blog/1513221698617.png" alt title>
                 </div>
                 <div class="image-caption"></div>
             </figure>
@@ -324,7 +309,7 @@
 <figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
-                    <img src="http://image.jonyjay.com/blog/1513221750037.png" alt="" title="">
+                    <img src="http://image.jonyjay.com/blog/1513221750037.png" alt title>
                 </div>
                 <div class="image-caption"></div>
             </figure>
@@ -333,65 +318,65 @@
 <figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
-                    <img src="http://image.jonyjay.com/blog/1513221802241.png" alt="" title="">
+                    <img src="http://image.jonyjay.com/blog/1513221802241.png" alt title>
                 </div>
                 <div class="image-caption"></div>
             </figure>
 <figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
-                    <img src="http://image.jonyjay.com/blog/1513221841755.png" alt="" title="">
+                    <img src="http://image.jonyjay.com/blog/1513221841755.png" alt title>
                 </div>
                 <div class="image-caption"></div>
             </figure>
 </li>
 </ol>
 <p>太酷了，我们已经将我们的主机接入了 DaoCloud，接下来就来完成最有意思的一步。</p>
-<ol>
+<ol start="6">
 <li>创建一个应用</li>
 </ol>
 <p>进入【镜像仓库】选择刚才手动构建出来的镜像，并部署最新版本到自由主机或者云端测试环境<br><figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
-                    <img src="http://image.jonyjay.com/blog/1513221982263.png" alt="" title="">
+                    <img src="http://image.jonyjay.com/blog/1513221982263.png" alt title>
                 </div>
                 <div class="image-caption"></div>
             </figure><br><figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
-                    <img src="http://image.jonyjay.com/blog/1513222006950.png" alt="" title="">
+                    <img src="http://image.jonyjay.com/blog/1513222006950.png" alt title>
                 </div>
                 <div class="image-caption"></div>
             </figure></p>
 <p>稍等片刻，便可以点击“立即部署”<br><figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
-                    <img src="http://image.jonyjay.com/blog/1513222246813.png" alt="" title="">
+                    <img src="http://image.jonyjay.com/blog/1513222246813.png" alt title>
                 </div>
                 <div class="image-caption"></div>
             </figure><br>这边需要注意 : <strong>主机端口</strong> 将会与主机中nginx反向代理配置有关系<br><figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
-                    <img src="http://image.jonyjay.com/blog/1513222327949.png" alt="" title="">
+                    <img src="http://image.jonyjay.com/blog/1513222327949.png" alt title>
                 </div>
                 <div class="image-caption"></div>
             </figure><br>7.定义自动构建，自动发布任务<br><figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
-                    <img src="http://image.jonyjay.com/blog/1513222380731.png" alt="" title="">
+                    <img src="http://image.jonyjay.com/blog/1513222380731.png" alt title>
                 </div>
                 <div class="image-caption"></div>
             </figure><br><figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
-                    <img src="http://image.jonyjay.com/blog/1513222400721.png" alt="" title="">
+                    <img src="http://image.jonyjay.com/blog/1513222400721.png" alt title>
                 </div>
                 <div class="image-caption"></div>
             </figure><br>至此，我们已经完成了，所有流程控制工作，去测试一下整个流程是否能走通？</p>
 <h4 id="第三步：-测试整个流程"><a href="#第三步：-测试整个流程" class="headerlink" title="第三步： 测试整个流程"></a>第三步： 测试整个流程</h4><p>回到我们本地，修改一下文本内容，提交，并推送到远端，<br><figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
-                    <img src="http://image.jonyjay.com/blog/1513222497072.png" alt="" title="">
+                    <img src="http://image.jonyjay.com/blog/1513222497072.png" alt title>
                 </div>
                 <div class="image-caption"></div>
             </figure><br>至此，我们在只编写了一个 Dockerfile 配置文件，没有编写脚本的情况下，成功地搭建了一套前端的持续集成开发环境。</p>
@@ -407,7 +392,7 @@
     <div class="content">
         
 <span class="post-time">
-    最后更新：<time datetime="2018-04-09T06:22:26.110Z" itemprop="dateUpdated">2018-04-09 14:22:26</time>
+    最后更新：<time datetime="2019-04-08T09:02:33.070Z" itemprop="dateUpdated">2019-04-08 17:02:33</time>
 </span>
 
 
@@ -493,7 +478,7 @@
   
     <div class="waves-block waves-effect prev">
       <a href="/posts/16109/" id="post-prev" class="post-nav-link">
-        <h4 class="title" >
+        <h4 class="title">
           上一篇：各种酷炫的Github头像、图片
         </h4>
       </a>
@@ -502,8 +487,8 @@
 
   
     <div class="waves-block waves-effect next">
-      <a href="/posts/16107/" id="post-next" class="post-nav-link">
-        <h4 class="title" data-hover="下一篇：Hello World">下一篇：Hello World</h4>
+      <a href="/posts/16111/" id="post-next" class="post-nav-link">
+        <h4 class="title" data-hover="下一篇：JavaScript知识点整理">下一篇：JavaScript知识点整理</h4>
       </a>
     </div>
   
@@ -545,7 +530,7 @@
             <i class="icon icon-lg icon-copyright"></i>
             2017
             <i class="icon icon-lg icon-heart"></i>
-            <a  class="site-url" href="http://blog.jonyjay.com">blog.jonyjay.com</a>
+            <a class="site-url" href="http://blog.jonyjay.com">blog.jonyjay.com</a>
             <!-- <br/>
             Power by
             <a href="https://hexo.io/" target="_blank" rel="external nofollow">Hexo</a>&nbsp;·&nbsp;
@@ -554,29 +539,29 @@
             -->
         </span>
 
-        <br/>
+        <br>
 
         <span id="RunTime" style="color:#a7a7a2;"></span>
-        <br/>
+        <br>
 
         <span>
             
 	<i class="icon icon-lg icon-user">
-<span id="busuanzi_container_site_uv" style='display:none'>
+<span id="busuanzi_container_site_uv" style="display:none">
        访问用户：<span id="busuanzi_value_site_uv"></span>
     </span>人</i>
     ·
     <i class="icon icon-lg icon-eye">
-    <span id="busuanzi_container_site_pv" style='display:none'>
+    <span id="busuanzi_container_site_pv" style="display:none">
       访问次数：<span id="busuanzi_value_site_pv"></span>
     </span>次
     </i>
 
 
         </span>
-        <br/>
+        <br>
 
-        <span class="license"><a  target="_blank" rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">博客内容遵循 知识共享 署名 - 非商业性 - 相同方式共享 4.0 国际协议</a></span>
+        <span class="license"><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">博客内容遵循 知识共享 署名 - 非商业性 - 相同方式共享 4.0 国际协议</a></span>
     </div>
 </footer>
 
@@ -597,8 +582,7 @@
         </div>
         
         <label class="reward-toggle">
-            <input id="rewardToggle" type="checkbox" class="reward-toggle-check"
-                data-wechat="/img/wechat.png" data-alipay="/img/alipay.png">
+            <input id="rewardToggle" type="checkbox" class="reward-toggle-check" data-wechat="/img/wechat.png" data-alipay="/img/alipay.png">
             <div class="reward-toggle-ctrol">
                 <span class="reward-toggle-item wechatPay">&nbsp;&nbsp;微信&nbsp;&nbsp;</span>
                 <span class="reward-toggle-item alipayPay">支付宝</span>
@@ -685,10 +669,10 @@ var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
 
 
 <!-- main博客脚本 -->
-<script src="/js/main.min.js?v=2.0" ></script>
+<script src="/js/main.min.js?v=2.0"></script>
 
 <!-- 动画&配置 -->
-<script src="/js/script.min.js?v=2.0" ></script>
+<script src="/js/script.min.js?v=2.0"></script>
 
 <!-- 脚本管理 -->
 <script>
@@ -793,16 +777,16 @@ if (window.console && window.console.log) {
 
 
 <!-- 不蒜子 -->
-
-<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
-
+<!---->
+<!--<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script>-->
+<!---->
 
 <script src="/js/waifu-tips.min.js?v=2.0"></script>
 <script src="/js/live2d.min.js?v=2.0"></script>
 <canvas id="Snow" width="412" height="949"></canvas>
 <script type="text/javascript" defer="defer">
 //  $(function(){
-    initModel("/js/")
+//     initModel("/js/")
 //  })
 
     if(true){
