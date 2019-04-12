@@ -62,6 +62,11 @@ jQuery.extend(jQuery.easing, {
         });
     };
 }(jQuery));
+function switchNightMode() {
+    "0" === (sessionStorage.getItem("night") || "0") ? (document.querySelector(".mask").classList.add("night"),
+        sessionStorage.setItem("night", "1")) : (document.querySelector(".mask").classList.remove("night"),
+        sessionStorage.setItem("night", "0"))
+}
 /* 文字音效 */
 function elasticText() {
     const args = arguments;
