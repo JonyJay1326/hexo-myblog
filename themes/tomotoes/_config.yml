@@ -31,10 +31,10 @@ menu2:
     text: Email
     url: mailto:flyingair1326@gmail.com
     target: _parent
-  github:
-    text: Github
-    url: https://github.com/jonyjay1326
-    target: _blank
+  lightbulb-o:
+    text: Light
+    url: javascript:switchNightMode();
+    target:
   weixin:
     text: WeChat
     url: http://image.jonyjay.com/blog/wechat.jpg
